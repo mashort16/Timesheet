@@ -2,43 +2,48 @@ body {
     background-color: #400080;
     font-family: 'Slabo 27px';
     font-weight:400;
+    background: url(image-path("ballroom_wallpaper2.jpg"));
+    background-size: cover;
 }
 
 #login-box {
     position: relative;
-    margin: 8% auto;
+    margin-top: 25px;
+    margin-left: 900px;
     background-color: #ccccff;
-    width: 600px;
-    height: 400px;
-    border-radius: 10px;
+    width: 350px;
+    height: 225px;
+    border-radius: 15px;
     box-shadow: 0 2px 4px rgba(0,0,0,0.8)
 }
 
-.left, .right {
-    padding:50px;
+.center {
+    padding:25px;
     width: 300px;
-    height: 400px;
+    height: 385px;
     position: absolute;
     top: 0;
+    text-align: center;
 }
 
 h1 {
   margin: 0 0 20px 0;
   font-weight: 300;
   font-size: 2em;
+  text-align: center;
 }
 
 .sign-up input {
     border: none;
     border-bottom: 1px solid #AAA;
-    display: block;
-    margin-bottom: 20px;
+    display: center;
+    margin-bottom: 10px;
     padding: 4px;
 }
 
 .sign-up-button {
     margin: 5px auto;
-    width: 220px;
+    width: 270px;
     height: 32px;
     border: none;
     border-radius: 2px;
