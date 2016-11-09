@@ -2,13 +2,13 @@ body {
     background-color: #400080;
     font-family: 'Slabo 27px';
     font-weight:400;
-    background: url(image-path("ballroom_wallpaper2.jpg"));
+    background: url(image-path("ballroom.jpg"));
     background-size: cover;
 }
 
 #login-box {
     position: relative;
-    margin-top: 150px;
+    margin-top: 260px;
     margin-left: 450px;
     background-color: transparent;
     width: 350px;
@@ -76,4 +76,16 @@ sign-up-button:active {
 .actions {
 	color: black;
     text-align: center;
+}
+
+.field {
+    color: black;
+}
+
+.password {
+    color: black;
+}
+
+.sign-up {
+    color: white;
 }
