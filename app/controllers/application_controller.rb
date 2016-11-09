@@ -1,12 +1,11 @@
 class ApplicationController < ActionController::Base
-
+  protect_from_forgery with: :exception
+  before_action :configure_permitted_parameters, if: :devise_controller?
+  require 'bootstrap-datepicker-rails'
+  
   def after_sign_in_path_for(resource)
    usermainpage_index_path
   end
-
-  protect_from_forgery with: :exception
-
-  before_action :configure_permitted_parameters, if: :devise_controller?
 
   protected
 

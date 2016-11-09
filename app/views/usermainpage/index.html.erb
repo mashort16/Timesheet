@@ -21,7 +21,7 @@
     <div class="col-md-8">
       <div class="panel panel-default">
         <div class="panel-heading">
-          Can put a header if you like or take it out
+          <%= "#{Date.today} Activity Log" %>
         </div>
 
         <div class="panel-body">
@@ -32,5 +32,14 @@
       </div>
     </div>
 
+  </div>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="panel panel-default">
+      <h4>Date Selector</h4>
+      <%= render 'work_log' %>
+    </div>
   </div>
 </div>

@@ -1,0 +1,3 @@
+class TimeLog < ApplicationRecord
+
+end

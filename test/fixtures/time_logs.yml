@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  work_date: 2016-11-08
+  start_clock: 2016-11-08 12:49:20
+  stop_clock: 2016-11-08 12:49:20
+  personal_lessons: 1
+  class_lessons: 1
+  orientations: 1
+  break_length: 1.5
+
+two:
+  work_date: 2016-11-08
+  start_clock: 2016-11-08 12:49:20
+  stop_clock: 2016-11-08 12:49:20
+  personal_lessons: 1
+  class_lessons: 1
+  orientations: 1
+  break_length: 1.5
